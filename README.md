@@ -1,2 +1,2 @@
 # CSS
-Angular learning and notes
+CSS learning and notes
