@@ -1,1 +1,1 @@
-http://sass-lang.com/guide
+http://lesscss.org/
