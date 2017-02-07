@@ -13,9 +13,10 @@
 - Attribute Selector : You can also apply styles to HTML elements with particular attributes. The style rule below will match all the input elements having a type attribute with a value of text. eg. input[type = "text"]{ color: #000000;} 
 The advantage to this method is that the \<input type = "submit" /\> element is unaffected, and the color applied only to the desired text fields.
 
-#### What is the difference between Block and Inline?
+#### 3. What is the difference between Block and Inline?
+- Block Level elements : A block-level element always starts on a new line and takes up the full width available. 
+- Inline Elements: 
 
-
-#### Difference between JavaScript window.onload event and jQuery ready function?
+#### 4. Difference between JavaScript window.onload event and jQuery ready function?
 - Window.onload : JavaScript onload event waits for DOM to be created also waits until all external resources are fully loaded including heavy images, audios and videos.  If loading images and media content takes lot of time that user can experience significant delay on execution of code defined in window.onload event. Onload(09 function can only be called once in a page.
 - Document.ready() : Function only wait for DOM tree, and does not wait for images or external resource loading, means faster execution. Advantage of ready() function is that it can use it multiple times in your page, and browser will execute them in the order they appear in HTML page.
