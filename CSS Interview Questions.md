@@ -20,3 +20,5 @@ The advantage to this method is that the \<input type = "submit" /\> element is 
 #### 4. Difference between JavaScript window.onload event and jQuery ready function?
 - Window.onload : JavaScript onload event waits for DOM to be created also waits until all external resources are fully loaded including heavy images, audios and videos.  If loading images and media content takes lot of time that user can experience significant delay on execution of code defined in window.onload event. Onload(09 function can only be called once in a page.
 - Document.ready() : Function only wait for DOM tree, and does not wait for images or external resource loading, means faster execution. Advantage of ready() function is that it can use it multiple times in your page, and browser will execute them in the order they appear in HTML page.
+
+#### 5. What is Viewport?
